@@ -3,13 +3,13 @@ function checkPass() {
   const correctPassword = "cockroach";
 
   if (passwordInput === correctPassword) {
-      // Redirect to another page if the password is correct
-      window.location.href = "https://www.example.com"; // Change to your desired URL
+      window.location.href = "https://khalid-azmatullah.github.io/kashmir/dashboard.html";
   } else {
       const errorSound = document.getElementById("errorSound");
       errorSound.play()
       document.getElementById("incorrectPasswordMessage").innerHTML = "Incorrect Password ❌";
       const message = document.getElementById("incorrectPasswordMessage");
       message.classList.add("incorrectAnimation");
+
   }
 }
