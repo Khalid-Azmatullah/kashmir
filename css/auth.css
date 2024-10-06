@@ -36,13 +36,31 @@ button:hover {
 #incorrectPasswordMessage {
   color: red;
   margin: 0px;
+
 }
 
 @keyframes vibrate{
-  0% {
-      transform: translateX(-1px) translateY(1px);
+  
+  15% {
+    transform: translateX(6px);
   }
-  100% {
-      transform: translateX(1px) translateY(-2px);
+  20% {
+      transform: translateX(-6px);
   }
+  25% {
+    transform: translateX(6px);
+  }
+  30% {
+      transform: translateX(-6px);
+  }
+  35% {
+    transform: translateX(6px);
+  }
+  40% {
+      transform: translateX(-6px);
+  }
+}
+
+.incorrectAnimation {
+  animation: vibrate 1000ms;
 }
