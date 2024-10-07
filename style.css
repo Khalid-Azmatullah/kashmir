@@ -1,0 +1,62 @@
+* {
+  padding-left: 0px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.timerContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timerHour {
+  padding-left: 10px;
+  font-size: 2rem;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #007bff;
+  border-right: none;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #fff;
+  padding-right: 10px;
+}
+
+
+.timerMinute {
+  font-size: 2rem;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #007bff;
+  background-color: #fff;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.timerSecond {
+  padding-left: 10px;
+  font-size: 2rem;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #007bff;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #fff;
+  padding-right: 10px;
+  border-left: none;
+}
+
+.timerRow {
+  display: flex;
+  justify-content: center;
+}
