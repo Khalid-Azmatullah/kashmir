@@ -37,19 +37,10 @@ body {
 }
 
 @keyframes scrollUp {
-  15% {
-    transform: translateY(-10%);
+  from {
+    transform: translateY(-5%);
   }
-  30% {
-    transform: translateY(-20%);
-  }
-  50% {
-    transform: translateY(-40%);
-  }
-  70% {
-    transform: translateY(-60%);
-  }
-  100% {
+  to {
     transform: translateY(-100%);
   }
 }
