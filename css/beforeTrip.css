@@ -38,7 +38,7 @@ body {
 
 @keyframes scrollUp {
   from {
-    transform: translateY(-5%);
+    transform: translateY(5%);
   }
   to {
     transform: translateY(-80%);
@@ -51,8 +51,7 @@ body {
 
 .scrollPart {
   animation: scrollUp ease;
-  animation-timeline: view();
-  animation-range: entry 0 cover 50%;
+  animation-duration: 1500ms;
   animation-iteration-count: 1;
 }
 
