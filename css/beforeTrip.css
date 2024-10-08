@@ -51,7 +51,7 @@ body {
 
 .scrollPart {
   animation: scrollUp ease-in;
-  animation-duration: 2000ms;
+  animation-duration: 1500ms;
   animation-iteration-count: 1;
 }
 
