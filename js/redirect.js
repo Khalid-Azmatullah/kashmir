@@ -14,6 +14,17 @@ const daySeven = "1-11-2024";
 const dayEight = "2-11-2024";
 const dayNine = "3-11-2024";
 
+if (month <= 10) {
+  if (currentDate.getDate() <= 25) {
+    window.location.href("https://khalid-azmatullah.github.io/kashmir/beforeTrip.html")
+  }
+}
+
+if (month >= 10) {
+  if (currentDate.getDate() >= 4) {
+    window.location.href("https://khalid-azmatullah.github.io/kashmir/afterTrip.html")
+  }
+}
 
 if (date === dayOne) {
     window.location.href = "https://khalid-azmatullah.github.io/kashmir/dayOne.html";

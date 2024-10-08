@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter",Arial, Helvetica, sans-serif;
+}
+
+.headerImg {
+  position: relative;
+  width: 100vw;
+  height: calc(1.5 * 100vw);
+  border: 1px solid #ccc;
+  margin: 0px;
+}
+
+.headerImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlayText {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 700;
+  padding: 10px; /* Optional: padding around the text */
+  border-radius: 5px; /* Optional: rounded corners */
+}
