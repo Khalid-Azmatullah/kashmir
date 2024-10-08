@@ -41,7 +41,7 @@ body {
     transform: translateY(-80%);
   }
   to {
-    transform: translateY(5%);
+    transform: translateY(8%);
   }
 }
 .headDivider img {
@@ -50,8 +50,8 @@ body {
 }
 
 .scrollPart {
-  animation: scrollUp ease;
-  animation-duration: 1500ms;
+  animation: scrollUp ease-in;
+  animation-duration: 2000ms;
   animation-iteration-count: 1;
 }
 
