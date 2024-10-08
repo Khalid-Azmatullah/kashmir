@@ -3,13 +3,14 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   font-family: "Inter",Arial, Helvetica, sans-serif;
 }
 
 .headerImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   width: 100vw;
   height: calc(1.5 * 100vw);
@@ -33,4 +34,50 @@ body {
   color: white;
   font-weight: 700;
   padding: 10px;
+}
+
+@keyframes scrollUp {
+  15% {
+    transform: translateY(-10%);
+  }
+  30% {
+    transform: translateY(-20%);
+  }
+  50% {
+    transform: translateY(-40%);
+  }
+  70% {
+    transform: translateY(-60%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.headDivider img {
+  width: 100vw;
+  transform: translateY(-80%);
+}
+
+.scrollPart {
+  animation: scrollUp linear;
+  animation-timeline: view();
+  animation-range: entry cover 40%;
+}
+
+
+
+.headerBottom {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: white;
+  width: 100vw;
+  padding-top: 10px;
+  transform: translateY(-140%);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.headerBottom li {
+  font-size: 1.5rem;
 }
