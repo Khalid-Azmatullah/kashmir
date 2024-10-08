@@ -38,10 +38,10 @@ body {
 
 @keyframes scrollUp {
   from {
-    transform: translateY(5%);
+    transform: translateY(-80%);
   }
   to {
-    transform: translateY(-80%);
+    transform: translateY(5%);
   }
 }
 .headDivider img {
