@@ -24,12 +24,13 @@ body {
 }
 
 .overlayText {
+  text-align: center;
   position: absolute;
-  top: 5%;
-  left: 10%;
+  top: 30%;
+  left: 50%;
+  font-size: 4rem;
   transform: translate(-50%, -50%);
   color: white;
   font-weight: 700;
-  padding: 10px; /* Optional: padding around the text */
-  border-radius: 5px; /* Optional: rounded corners */
+  padding: 10px;
 }
