@@ -41,7 +41,7 @@ body {
     transform: translateY(-80%);
   }
   to {
-    transform: translateY(8%);
+    transform: translateY(0%);
   }
 }
 .headDivider img {
