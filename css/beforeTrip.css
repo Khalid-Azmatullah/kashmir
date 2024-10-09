@@ -50,7 +50,7 @@ body {
     transform: translateY(-60%);
   }
   100% {
-    transform: translateY(-100%);
+    transform: translateY(-80%);
   }
 }
 .headDivider img {
@@ -62,6 +62,7 @@ body {
   animation: scrollUp linear;
   animation-timeline: view();
   animation-range: entry cover 40%;
+  animation-iteration-count: 1;
 }
 
 
