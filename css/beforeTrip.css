@@ -44,14 +44,50 @@ body {
   width: 100vw;
   transform: translateY(-80%);
 }
-
-
-
-.headDividerBottom img {
-  width: 100vw;
-  transform: translateY(-105%) rotate(1deg);
+.bodyStart::before {
+  background-color: white;
+  height: 100vh;
 }
 
+.bodyStart {
+  background-color: #DFE3EC;
+  padding-top: 30px;
+
+  transform: translateY(-100%);
+  text-align: center;
+  height: 25vh;
+}
+
+.bodyStart img {
+  padding-left: 0px;
+  width: 100vw;
+  transform: translateY(8.5%) rotateZ(1deg);
+}
+
+.ticketHeader {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.bodyStart a {
+  margin: 100px; 
+  background-color: white;
+  padding-left: 20px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bodyStart a:hover {
+  background-color: hsl(0, 0%, 95%);
+}
 
 .headerBottom {
   text-align: center;
@@ -61,7 +97,7 @@ body {
   width: 100vw;
   padding-top: 10px;
   transform: translateY(-140%);
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   margin-bottom: 10px;
 }
 
