@@ -37,11 +37,20 @@ body {
 }
 
 @keyframes scrollUp {
-  from {
-    transform: translateY(-80%);
+  15% {
+    transform: translateY(-10%);
   }
-  to {
-    transform: translateY(0%);
+  30% {
+    transform: translateY(-20%);
+  }
+  50% {
+    transform: translateY(-40%);
+  }
+  70% {
+    transform: translateY(-60%);
+  }
+  100% {
+    transform: translateY(-80%);
   }
 }
 .headDivider img {
@@ -50,9 +59,9 @@ body {
 }
 
 .scrollPart {
-  animation: scrollUp ease-in;
-  animation-duration: 1500ms;
-  animation-iteration-count: 1;
+  animation: scrollUp ease;
+  animation-timeline: view();
+  animation-range: cover 90%;
 }
 
 
