@@ -56,13 +56,9 @@ body {
   transform: translateY(-75%);
   text-align: center;
   height: 25vh;
+  padding-bottom: 10px;
 }
 
-.bodyStart img {
-  padding-left: 0px;
-  width: 100vw;
-  transform: translateY(15.5%);
-}
 
 .ticketHeader {
   font-size: 1.8rem;
