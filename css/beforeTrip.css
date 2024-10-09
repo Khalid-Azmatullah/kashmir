@@ -52,7 +52,6 @@ body {
 .bodyStart {
   background-color: #DFE3EC;
   padding-top: 30px;
-
   transform: translateY(-75%);
   text-align: center;
   height: 25vh;
@@ -61,7 +60,7 @@ body {
 
 .ticketHeader {
   font-size: 1.8rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding-left: 20px;
 }
 
@@ -71,7 +70,6 @@ body {
   padding-left: 20px;
   font-weight: 500;
   padding-top: 10px;
-  padding-bottom: 10px;
   padding-right: 20px;
   text-decoration: none;
   font-size: 1.5rem;
