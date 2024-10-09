@@ -61,7 +61,7 @@ body {
 .scrollPart {
   animation: scrollUp ease;
   animation-timeline: view();
-  animation-range: cover 90%;
+  animation-range: cover 40%;
 }
 
 
