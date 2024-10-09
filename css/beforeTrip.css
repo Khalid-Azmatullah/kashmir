@@ -53,7 +53,7 @@ body {
   background-color: #DFE3EC;
   padding-top: 30px;
 
-  transform: translateY(-70%);
+  transform: translateY(-75%);
   text-align: center;
   height: 25vh;
 }
@@ -61,7 +61,7 @@ body {
 .bodyStart img {
   padding-left: 0px;
   width: 100vw;
-  transform: translateY(8.5%) rotateZ(1deg);
+  transform: translateY(12.5%);
 }
 
 .ticketHeader {
