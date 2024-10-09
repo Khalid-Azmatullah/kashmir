@@ -26,6 +26,8 @@ body {
   position: fixed;
 }
 
+
+
 .overlayText {
   text-align: center;
   position: absolute;
@@ -41,6 +43,13 @@ body {
 .headDivider img {
   width: 100vw;
   transform: translateY(-80%);
+}
+
+
+
+.headDividerBottom img {
+  width: 100vw;
+  transform: translateY(-105%) rotate(1deg);
 }
 
 
