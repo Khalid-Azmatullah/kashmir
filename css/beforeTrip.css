@@ -96,6 +96,17 @@ body {
   margin-bottom: 10px;
 }
 
-.headerBottom li {
-  font-size: 1.5rem;
+.toKnowList li {
+  font-size: 1.3rem;
+}
+
+.toKnowList {
+  background-color: #fff;
+  transform: translateY(-52%);
+}
+
+.tklTitle {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.6rem;
 }
