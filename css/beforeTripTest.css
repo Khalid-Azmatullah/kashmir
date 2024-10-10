@@ -17,6 +17,9 @@ body {
   height: calc(1.5 * 100vw);
   border: 1px solid #ccc;
   margin: 0px;
+  z-index: 1  ;
+  background-image: url("../image/kashmir.jpg");
+  background-size: cover; 
 }
 
 .headerImg img {
@@ -40,20 +43,18 @@ body {
   padding: 10px;
 }
 
+
+scrollPart {
+  transform: translateY(-140%);
+}
+
 .headDivider img {
   width: 100vw;
-  transform: translateY(-80%);
-}
-.bodyStart::before {
-  background-color: white;
-  height: 100vh;
 }
 
 .bodyStart {
   background-color: #DFE3EC;
   padding-top: 30px;
-
-  transform: translateY(-90%);
   text-align: center;
   height: 20vh;
 }
@@ -91,19 +92,16 @@ body {
   background-color: white;
   width: 100vw;
   padding-top: 10px;
-  transform: translateY(-140%);
   padding-bottom: 20px;
   margin-bottom: 10px;
 }
 
 .toKnowList li {
   font-size: 1.3rem;
-  padding-left: 20px;
 }
 
 .toKnowList {
   background-color: #fff;
-  transform: translateY(-65%);
 }
 
 .tklTitle {
