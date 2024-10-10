@@ -91,7 +91,7 @@ body {
   background-color: white;
   width: 100vw;
   padding-top: 10px;
-  transform: translateY(-100%);
+  transform: translateY(-140%);
   padding-bottom: 20px;
   margin-bottom: 10px;
 }
@@ -102,7 +102,7 @@ body {
 
 .toKnowList {
   background-color: #fff;
-  transform: translateY(-140%);
+  transform: translateY(-30%);
 }
 
 .tklTitle {
