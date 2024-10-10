@@ -134,8 +134,8 @@ body {
 
 .toKnowList {
   background-color: #fff;
-  transform: translateY(-56%);
-  list-style-type: symbols();
+  transform: translateY(-40%);
+  padding-bottom: 50vh;
 }
 
 .tklTitle {
