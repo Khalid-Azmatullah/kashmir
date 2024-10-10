@@ -128,6 +128,10 @@ body {
   content: "💊" !important;
 }
 
+.cockroachLine::before {
+  content: "🪳" !important;
+}
+
 .toKnowList {
   background-color: #fff;
   transform: translateY(-56%);
