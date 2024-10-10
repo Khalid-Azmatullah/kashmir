@@ -96,14 +96,22 @@ body {
   margin-bottom: 10px;
 }
 
+.toKnowList li::before {
+  content: "•";
+}
+
 .toKnowList li {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding-left: 20px;
+}
+.toKnowList li ul {
+  list-style: none;
 }
 
 .toKnowList {
   background-color: #fff;
-  transform: translateY(-58%);
+  transform: translateY(-60%);
+  list-style-type: symbols();
 }
 
 .tklTitle {
