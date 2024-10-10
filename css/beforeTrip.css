@@ -108,9 +108,29 @@ body {
   list-style: none;
 }
 
+.toKnowList li li::before {
+  content: "";
+}
+
+.aadharCardLine::before {
+  content: "🆔" !important;
+}
+
+.photoLine::before {
+  content: "📷" !important;
+}
+
+.sunglassLine::before {
+  content: "😎" !important;
+}
+
+.medicineLine::before {
+  content: "💊" !important;
+}
+
 .toKnowList {
   background-color: #fff;
-  transform: translateY(-60%);
+  transform: translateY(-56%);
   list-style-type: symbols();
 }
 
