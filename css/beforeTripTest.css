@@ -1,12 +1,15 @@
 * {
   margin: 0px;
+  margin-top: 0px;
   padding: 0px;
+  margin-bottom: 0px;
 }
-
 body {
   overflow-x: hidden;
   font-family: "Inter",Arial, Helvetica, sans-serif;
 }
+
+
 
 .headerImg {
   display: flex;
@@ -17,20 +20,13 @@ body {
   height: calc(1.5 * 100vw);
   border: 1px solid #ccc;
   margin: 0px;
-  z-index: 1  ;
-  background-image: url("../image/kashmir.jpg");
-  background-size: cover; 
 }
-
 .headerImg img {
   width: 100vw;
   height: calc(1.5 * 100vw);
   object-fit: cover;
   position: fixed;
 }
-
-
-
 .overlayText {
   text-align: center;
   position: absolute;
@@ -44,48 +40,23 @@ body {
 }
 
 
-scrollPart {
-  transform: translateY(-140%);
+
+.scrollPart {
+  position: relative;
+  transform: translateY(-10%);
 }
+
 
 .headDivider img {
   width: 100vw;
+  margin-bottom: 0px;
 }
-
-.bodyStart {
-  background-color: #DFE3EC;
-  padding-top: 30px;
-  text-align: center;
-  height: 20vh;
+.headDivider {
+  margin-bottom: 0px;
+  height: calc(0.32 * 100vw);
 }
-
-
-.ticketHeader {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-  padding-left: 20px;
-}
-
-.bodyStart a {
-  margin: 100px; 
-  background-color: white;
-  padding-left: 20px;
-  font-weight: 500;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 20px;
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: #000;
-  border-radius: 20px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
-}
-
-.bodyStart a:hover {
-  background-color: hsl(0, 0%, 95%);
-}
-
 .headerBottom {
+  margin-top: 0px;
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
@@ -93,15 +64,81 @@ scrollPart {
   width: 100vw;
   padding-top: 10px;
   padding-bottom: 20px;
-  margin-bottom: 10px;
+}
+
+
+
+.bodyStart {
+  background-color: #DFE3EC;
+  text-align: center;
+  height: 32vh;
+}
+.bodyStart a {
+  background-color: white;
+  padding-left: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+  border-radius: 15px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.bodyStart a:hover {
+  background-color: hsl(0, 0%, 95%);
+}
+.ticketHeader {
+  padding-top: 30px;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+
+
+
+
+.toKnowList li::before {
+  content: "•";
 }
 
 .toKnowList li {
   font-size: 1.3rem;
+  padding-left: 20px;
+}
+.toKnowList li ul {
+  list-style: none;
+}
+
+.toKnowList li li::before {
+  content: "";
+}
+
+.aadharCardLine::before {
+  content: "🆔" !important;
+}
+
+.photoLine::before {
+  content: "📷" !important;
+}
+
+.sunglassLine::before {
+  content: "😎" !important;
+}
+
+.medicineLine::before {
+  content: "💊" !important;
+}
+
+.cockroachLine::before {
+  content: "🪳" !important;
 }
 
 .toKnowList {
   background-color: #fff;
+  padding-bottom: 20vh;
 }
 
 .tklTitle {
