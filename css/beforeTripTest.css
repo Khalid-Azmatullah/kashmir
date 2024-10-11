@@ -71,6 +71,7 @@ body {
 .bodyStart {
   background-color: #DFE3EC;
   text-align: center;
+  height: calc(0.54 * 100vw);
 }
 .bodyStart a {
   background-color: white;
