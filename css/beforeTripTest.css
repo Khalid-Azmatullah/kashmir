@@ -71,7 +71,7 @@ body {
 .bodyStart {
   background-color: #DFE3EC;
   text-align: center;
-  height: calc(0.54 * 100vw);
+  height: calc(0.525 * 100vw);
 }
 .bodyStart a {
   background-color: white;
@@ -138,11 +138,45 @@ body {
 
 .toKnowList {
   background-color: #fff;
-  padding-bottom: 20vh;
 }
 
 .tklTitle {
   text-align: center;
   padding-top: 20px;
   font-size: 1.6rem;
+}
+
+.mustCarry {
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: #DFE3EC;
+  padding-bottom: 80px;
+}
+
+.mustCarry h3 {
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.mustCarry li {
+  list-style-type: none;
+}
+
+
+.dividerFooter img {
+  width: 100vw;
+  transform: translateY(-100%);
+}
+.dividerFooter{
+  position: absolute;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.dividerFooter h1 {
+  margin-top: -90px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
 }
