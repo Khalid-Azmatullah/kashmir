@@ -14,7 +14,7 @@
   display: flex;
   justify-items: center;
   flex-direction: row;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: x proximity;
   overflow-x: scroll;
   width: 100vw;
 }
