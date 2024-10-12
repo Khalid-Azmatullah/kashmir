@@ -4,6 +4,8 @@ function checkPass() {
 
   if (passwordInput === correctPassword) {
       window.location.href = "https://khalid-azmatullah.github.io/kashmir/redirect.html";
+  } else if (passwordInput === "🪳") {
+      window.location.href = "https://khalid-azmatullah.github.io/kashmir/redirect.html";
   } else {
       const errorSound = document.getElementById("errorSound");
       errorSound.play()
