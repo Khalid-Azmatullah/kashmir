@@ -58,6 +58,9 @@ div {
   padding-bottom: 20px;
   font-size: 1.5rem;
   font-weight: 600;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 .active {
