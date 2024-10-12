@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+:root {
+  --max-height: calc(1.29 *100vw)
+}
+
+.container {
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  width: 100vw;
+}
+
+img {
+  width: 100vw;
+  max-height: var(--max-height);
+}
+
+div {
+  scroll-snap-align: center;
+}
+
+.pageOne {
+  width: 100vw;
+}
+.pageTwo {
+  width: 100vw;
+}
+.pageThree {
+  width: 100vw;
+}
+.pageFour {
+  width: 100vw;
+}
+.pageFive {
+  width: 100vw;
+}
