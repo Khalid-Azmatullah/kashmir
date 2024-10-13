@@ -2,6 +2,8 @@ const currentDate = new Date();
 const month = currentDate.getMonth() + 1;
 const date = currentDate.getDate() + "-" + month + "-" + currentDate.getFullYear();
 
+window.location.href = "https://khalid-azmatullah.github.io/kashmir/beforeTrip.html";
+
 console.log(date)
 
 const dayOne = "26-10-2024";
