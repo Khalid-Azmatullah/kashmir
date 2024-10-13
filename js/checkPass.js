@@ -1,6 +1,6 @@
 function checkPass() {
   const passwordInput = document.getElementById("password").value;
-  const correctPassword = "cockroach";
+  const correctPassword = "cockroach@123";
 
   if (passwordInput === correctPassword) {
       window.location.href = "https://khalid-azmatullah.github.io/kashmir/redirect.html";
